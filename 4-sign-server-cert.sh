@@ -1,9 +1,9 @@
 openssl x509 -req \
     -days 365 \
-    -in kafka-3.csr \
+    -in kafka-server.csr \
     -CA ca.crt \
     -CAkey ca.key \
     -CAcreateserial \
-    -out kafka-3.crt \
-    -extfile kafka-3.cfg \
+    -out kafka-server.crt \
+    -extfile kafka-server.cfg \
     -extensions v3_req
