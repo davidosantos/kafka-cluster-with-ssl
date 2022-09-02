@@ -1,0 +1,1 @@
+cat ca.crt ca.key > ca.pem
